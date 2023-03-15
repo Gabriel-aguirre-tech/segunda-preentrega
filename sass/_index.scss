@@ -1,0 +1,35 @@
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    font-weight: bold;
+    color: $color1;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/imagen-main.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    boton{
+        font-size: 1.7em;
+    }
+}
+
+#somos-bsf{
+    text-align: center;
+    padding: 200px 12px;
+    background-color: rgb(245,245,245);
+}
+
+#servicio{
+    text-align: center;
+    padding: 200px 12px;
+    background-color: rgb(245,245,245);
+}
+

@@ -1,0 +1,36 @@
+.grid-layout{
+    @include secundario (rgb(30,30,30), $color1);
+    padding-top: 15px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .caja{
+        text-align: center;
+    }
+    
+    .c1{
+        padding-top: 34px;
+        padding-bottom: 25px;
+    }
+    
+    .c2{
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    
+    .c3{
+        padding-top: 25px;
+        .img{
+            height: 250px;
+            width: 350px;
+            border-radius: 4px;
+        }
+    }
+}

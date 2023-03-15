@@ -1,0 +1,57 @@
+.grid-contacto{
+    @include secundario (rgb(30,30,30), $color1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .b1{
+        padding-top: 52px;
+    }
+    
+    .b2{
+        margin-top: 50px;
+    }
+    
+    .b3, .b5, .b7, .b9{
+        width: 360px;
+        padding: 0px 10px;
+        input{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+    .b3, .b5, .b7{
+        height: 42px;
+    }
+    
+    .b9{
+        height: 122px;
+        padding-bottom: 25px;
+    }
+    
+    .b2, .b4, .b6, .b8{
+        display: flex;
+        justify-content: flex-start;
+        width: 360px;
+        padding: 0px 10px;
+        h2{
+            font-size: 15px;
+            display: flex;
+            justify-content: right;
+        }
+    }
+    
+    .b4, .b6, .b8{
+        padding-top: 25px;
+    }
+    
+    .b10{
+        padding-bottom: 100px;
+        button{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
